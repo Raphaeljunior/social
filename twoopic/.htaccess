@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^twoopic\.nanoxcorp\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.twoopic\.nanoxcorp\.com$
+RewriteRule ^/?$ "http\:\/\/twoopic\.com\/" [R=301,L]
+

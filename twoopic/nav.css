@@ -1,0 +1,19 @@
+
+#navmenu{
+background:#475566;
+height:100%;
+display:block;
+
+width:50px;
+left:0px;
+top:0px;
+z-index:0;
+
+}
+
+#pagebody header{
+left:0px;
+top:0px;
+
+
+}
